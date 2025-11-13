@@ -7,7 +7,7 @@ import math
 
 # --- 1. CONFIGURACIÓN ---
 BASE_SUBMISSION_FILE = "submission_vH4.6_(0.69538886).csv" # submission anterior
-NEW_SUBMISSION_FILE = "submission_vSA_()" # submission que creará el SA
+NEW_SUBMISSION_FILE = "submission_vSA_().csv" # submission que creará el SA
 DATA_PATH = "C:/Users/julio/Documents/IO files/"
 ALPHA = 0.5
 TIME_LIMIT_SECONDS = 3600 # 1 hora

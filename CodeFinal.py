@@ -7,7 +7,7 @@ import random
 # --- 1. CONFIGURACIÓN ---
 # ¡ASEGÚRATE DE USAR NUESTRA MEJOR SOLUCIÓN COMO SEMILLA!
 BASE_SUBMISSION_FILE = "submission_vH4.5_(0.69432993).csv" # submission anterior que intento mejorar
-NEW_SUBMISSION_FILE = "submission_vH4.6_()" #submission que creará
+NEW_SUBMISSION_FILE = "submission_vH4.6_().csv" #submission que creará
 DATA_PATH = "C:/Users/julio/Documents/IO files/"
 ALPHA = 0.5
 TIME_LIMIT_SECONDS = 36000 # modificar este número para delimitar cuando tiempo correrá el código

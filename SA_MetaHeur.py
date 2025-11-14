@@ -6,7 +6,7 @@ import random
 import math
 
 # --- 1. CONFIGURACIÓN ---
-BASE_SUBMISSION_FILE = "submission_vSA_(0.69586966).csv" # submission anterior
+BASE_SUBMISSION_FILE = "submission_vHC_(0.69586966).csv" # submission anterior
 NEW_SUBMISSION_FILE = "submission_vSA_().csv" # submission que creará el SA
 DATA_PATH = "C:/Users/julio/Documents/IO files/"
 ALPHA = 0.5
@@ -202,5 +202,6 @@ print(f"Guardando la MEJOR solución encontrada en '{NEW_SUBMISSION_FILE}'...")
 df_final_submission = pd.DataFrame(list(best_assignments.items()), columns=['student_id', 'university_id'])
 df_final_submission = df_final_submission.sort_values(by='student_id')
 df_final_submission.to_csv(NEW_SUBMISSION_FILE, index=False)
+
 
 print("¡Guardado completado!")

@@ -6,11 +6,11 @@ import random
 
 # --- 1. CONFIGURACIÓN ---
 # ¡ASEGÚRATE DE USAR NUESTRA MEJOR SOLUCIÓN COMO SEMILLA!
-BASE_SUBMISSION_FILE = "submission_vH4.5_(0.69432993).csv" # submission anterior que intento mejorar
-NEW_SUBMISSION_FILE = "submission_vH4.6_().csv" #submission que creará
+BASE_SUBMISSION_FILE = "submission_vSA_(0.69432993).csv" # submission anterior que se intenta mejorar
+NEW_SUBMISSION_FILE = "submission_vHC_().csv" #submission que creará
 DATA_PATH = "C:/Users/julio/Documents/IO files/"
 ALPHA = 0.5
-TIME_LIMIT_SECONDS = 36000 # modificar este número para delimitar cuando tiempo correrá el código
+TIME_LIMIT_SECONDS = 3600 # modificar este número para delimitar cuando tiempo correrá el código
 
 print(f"--- Iniciando Nueva Heurística (Búsqueda Local por Swaps) ---")
 print(f"Semilla: {BASE_SUBMISSION_FILE}")
@@ -169,4 +169,5 @@ df_final_submission = df_final_submission.sort_values(by='student_id')
 df_final_submission.to_csv(NEW_SUBMISSION_FILE, index=False)
 
 print("¡Guardado completado!")
+
 print("Puedes correr SCORER.py de este nuevo archivo para una verificación final.")
